@@ -7,7 +7,7 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(".ng").click(function() {
+$(".ng").tap(function() {
     $(".ig").hide();
     $(".ng").hide();
   if (!started) {
