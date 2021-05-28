@@ -7,8 +7,9 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(document).keypress(function() {
+$(".ng").click(function() {
     $(".ig").hide();
+    $(".ng").hide();
   if (!started) {
     $("#level-title").text("Level " + level);
     $(".ha").text("Good  Luck")
@@ -47,6 +48,7 @@ function checkAnswer(currentLevel) {
       $(".ha").text("Alas!!")
       $(".ig").attr("src","hoka.jpg");
       $(".ig").show();
+          $(".ng").show();
       startOver();
     }
 }
