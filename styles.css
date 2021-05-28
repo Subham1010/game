@@ -28,7 +28,12 @@ body {
   margin: auto;
 
 }
-
+.ng{
+  background: lightblue;
+  padding:15px 32px;
+  font-size: 16px;
+  cursor: pointer;
+}
 .btn {
   margin: 25px;
   display: inline-block;
